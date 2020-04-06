@@ -1,0 +1,171 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+@font-face {font-family: "Nexa"; src: url(font/Nexa\ Bold.otf);}
+
+body {
+  font-family: "Nexa";
+}
+
+li {
+  list-style: none;
+}
+
+header {
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    
+}
+.header-logo{
+    width: 125px;
+    float: left;
+    margin : 10px;
+}
+.header-list{
+    float: right;
+    padding-right: 10px;
+}
+.header-list a {
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+    padding: 0 10px;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-list a:hover {
+    background-color: rgba(34, 49, 52, 0.3);
+  }
+.container{
+    width: 100%;
+    margin: 0px auto;
+}
+.top-wrapper{
+    padding-top: 250px;
+    text-align: center;
+    height: 360px;
+}
+.title{
+    float: left;
+    width: 40%;
+    padding-top: 30px;
+}
+.title h1{
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+.title h2{
+    font-size: 29px;
+}
+.title span{
+    color: yellow;
+}
+
+.images1 {
+    width: 30%;
+    float: left;
+}
+.images2{
+    width: 30%;
+    float: left;
+}
+.img1{
+    width: 50%;
+    margin-top: 100px;
+    padding-right: 10%;
+}
+.img2{
+    width: 70%;
+    padding-left: 10%;
+}
+
+.curriculum-wrapper{
+    margin: 30px 0;
+    
+}
+.curriculum-wrapper h2{
+    margin: 0 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ccc;
+}
+.curriculums{
+    padding-top: 25px;
+    text-align: center;
+    display: flex;
+}
+.curriculum{
+    flex: auto;
+    width: 30%;
+    padding: 0 8%;
+}
+.curriculum img{
+    width: 100%;
+}
+.curriculum h3 {
+    padding-bottom: 10px;
+}
+
+.contact{
+    padding: 50px 0;
+}
+.contact h2{
+    margin: 0 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ccc;
+}
+.contact-wrapper{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.text-field{
+    width: 20%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+.contact-wrapper h3 {
+    padding-bottom: 10px;
+}
+
+.bottom-send {
+    padding: 15px 40px;
+    width: 20%;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 10px;
+  }
+  
+  .bottom-send:active {
+    position: relative;
+    top: 4px;
+    box-shadow: none;
+  }
+
+footer{
+    height: 130px;
+    background-color: orange;
+    color: white;
+}
+.footer-left{
+    float: left;
+    padding: 20px;
+}
+.footer-right {
+    float: right;
+    padding: 20px;
+}
+.footer-right li {
+    margin-bottom: 10px;
+}

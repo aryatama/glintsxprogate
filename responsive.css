@@ -1,0 +1,67 @@
+@media (max-width : 1000px) {
+    .bottom-send{
+        width: 40%;
+    }
+    .text-field{
+        width: 40%;
+    }
+    .title h1{
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+    .title h2{
+        font-size: 20px;
+    }
+    .top-wrapper{
+        padding-top: 150px;
+        height: 240px;
+    }
+    .curriculum{
+        width: 30%;
+        padding: 0 4%;
+    }
+    .img1{
+        margin-top: 60px;
+    }
+    .curriculum-wrapper h2{
+        font-size: 23px;
+    }
+    .contact h2{
+        font-size: 23px;
+    }
+    .footer-right li {
+        font-size: 15px;
+    }
+    .footer-left h2{
+        font-size: 15px;
+    }
+}
+
+@media (max-width : 670px) {
+    .title h1{
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+    .title h2{
+        font-size: 18px;
+    }
+    .bottom-send{
+        width: 80%;
+    }
+    .text-field{
+        width: 80%;
+    }
+    .top-wrapper{
+        padding-top: 120px;
+        height: 180px;
+    }
+    .curriculum{
+        width: 50%;
+    }
+    .curriculum-wrapper h2{
+        font-size: 20px;
+    }
+    .contact h2{
+        font-size: 20px;
+    }
+}
